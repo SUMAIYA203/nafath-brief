@@ -32,5 +32,6 @@ When storing chat logs, anonymisation changes personal data so people can no lon
 Resource: Introduction to anonymisation - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 
 ## Misconception in My Track
-
+A common misconception is that IPv6 is simply IPv4 with a larger address space. In fact, RFC 8200 states that IPv6 increases the IP address size from 32 bits to 128 bits. This change supports more levels of addressing hierarchy, a much greater number of addressable nodes, and simpler autoconfiguration of addresses. IPv6 also improves multicast routing scalability by adding a scope field to multicast addresses and introduces anycast addresses, which send a packet to any one node in a group. However, adopting IPv6 does not automatically make a network secure or remove the need for IPv4; networks still require correct configuration and appropriate security controls. The evidence is in RFC 8200, Section 1, “Introduction,” under “Expanded Addressing Capabilities.”
 ## Open Question
+Which IPv6 transition strategy best fits the agency's existing network?
