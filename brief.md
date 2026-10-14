@@ -17,10 +17,19 @@ iOS App Transport Security (ATS) helps protect connections made through Apple ne
 Resource: Fine-tune your App Transport Security settings - Apple Developer - https://developer.apple.com/news/?id=jxky8h89 
 
 ## Networking
+IPv6 uses 128-bit addresses, while IPv4 uses 32-bit addresses. This means IPv6 can provide far more unique addresses for phones, computers, sensors, and other connected devices. As more devices join the internet, IPv6 helps prevent address shortages and supports reliable connections. For a public-service AI app, supporting IPv6 helps it stay available as demand grows, though both IPv4 and IPv6 traffic still need to be securely configured.
+
+Resource: RFC 8200: Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
 
 ## Cybersecurity
+Prompt injection is an attack where user prompts alter an LLM-based system’s behavior, potentially causing it to ignore instructions, reveal sensitive information, or misuse its permissions. Direct injections use malicious commands in the user’s message, while indirect injections hide them in retrieved external content. To reduce the risk, validate and filter inputs and retrieved content, and limit the system’s tools, APIs, and permitted actions. OWASP classifies this as LLM01:2025 Prompt Injection.
+
+Resource: OWASP Top 10 for LLM Applications - https://genai.owasp.org/llm-top-10/
 
 ## Data
+When storing chat logs, anonymisation changes personal data so people can no longer be identified, either from the data alone or when combined with other information. Pseudonymisation replaces direct identifiers, such as names, with codes or reference numbers, but people may still be identified using separately held information. Therefore, pseudonymised chat logs remain personal data, while effectively anonymised chat logs fall outside data-protection law.
+
+Resource: Introduction to anonymisation - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 
 ## Misconception in My Track
 
